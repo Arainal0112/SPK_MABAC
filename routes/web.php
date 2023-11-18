@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\KriteriaController;
+use App\Http\Controllers\MabacController;
 use App\Http\Controllers\MatriksController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -28,6 +29,7 @@ Route::resource('/alternatif', AlternatifController::class);
 Route::resource('/kriteria', KriteriaController::class);
 Route::resource('/sub', SubKriteriaController::class);
 Route::resource('/matriks', MatriksController::class);
+Route::get('/hasil', 'MabacController@index')->name('hasil.index');
 
 Route::get('/about', function () {
     return view('about');

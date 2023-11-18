@@ -35,45 +35,31 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Nama Alternatif</th>
-                                    @foreach($krit as $Krit)
-                                        <th>{{$Krit->kode_kriteria}}</th>
-                                    @endforeach
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php $i=1 ?>
-                                @foreach ($alt as $Alt)
+                        @if (!empty($matrixTable))
+                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
                                     <tr>
-                                        <td>{{$i}}</td>
-                                        <td>{{ $Alt->nama_alternatif}}</td>
-                                        @foreach($krit as $Krit)
-                                            <?php $found = false; ?>
-                                            @foreach($matriks as $Mat)
-                                                @if ($Mat->alternatif_id == $Alt->id && $Mat->kriteria_id == $Krit->id)
-                                                    <td>{{$Mat->nilai}}</td>
-                                                    <?php $found = true; ?>
-                                                    @break
-                                                @endif
-                                            @endforeach
-                                            @if (!$found)
-                                                <td>0</td>
-                                            @endif
+                                        <th>Alternatif</th>
+                                        @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
+                                            <th>C{{ $loop->index + 1 }}</th>
                                         @endforeach
-                                        <td>
-                                            <a class="btn btn-primary"href="{{ route('matriks.edit', $Alt->id) }}">edit</a>
-                                        </td>
                                     </tr>
-                                    <?php $i++ ?>
-                                @endforeach
-                            </tbody>
-                        </table>
-                        
+                                </thead>
+                                <tbody>
+                                    @foreach ($matrixTable as $alternatifId => $kriteriaValues)
+                                        <tr>
+                                            <td>{{ $alternatifNames[$alternatifId] }}</td>
+                                            @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
+                                                <td>{{ $kriteriaValues[$kriteriaId] ?? '' }}</td>
+                                            @endforeach
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        @else
+                            <p>Tidak ada data Decision Matrix yang tersimpan.</p>
+                        @endif
+
 
                     </div>
                 </div>

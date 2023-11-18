@@ -38,6 +38,11 @@
             <i class="fa-solid fa-square-poll-horizontal"></i>
             <span>{{ __('Matriks') }}</span></a>
     </li>
+    <li class="nav-item {{ Nav::isRoute('home') }}">
+        <a class="nav-link" href="{{ route('hasil.index') }}">
+            <i class="fa-solid fa-square-poll-horizontal"></i>
+            <span>{{ __('Hasil') }}</span></a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider">

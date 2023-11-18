@@ -82,8 +82,11 @@ class AlternatifController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Alternatif $alternatif)
+    public function destroy($id)
     {
-        //
+        Alternatif::find($id)->delete();
+
+        return redirect()->route('alternatif.index')
+            ->with('success', 'Data Berhasil Dihapus');
     }
 }

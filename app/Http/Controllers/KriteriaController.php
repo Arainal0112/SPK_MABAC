@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Kriteria;
 use App\Http\Requests\StoreKriteriaRequest;
 use App\Http\Requests\UpdateKriteriaRequest;
+use App\Models\Matriks;
 use App\Models\SubKriteria;
 use Illuminate\Http\Request;
 
@@ -93,6 +94,7 @@ class KriteriaController extends Controller
     {
         // Hapus sub-kriteria yang terkait secara manual
         SubKriteria::where('kriteria_id', $id)->delete();
+        Matriks::where('kriteria_id',$id)->delete();
         Kriteria::find($id)->delete();
 
         return redirect()->route('kriteria.index')

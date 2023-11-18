@@ -7,6 +7,7 @@ use App\Models\Kriteria;
 use App\Models\Alternatif;
 use App\Models\SubKriteria;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class MatriksController extends Controller
 {
@@ -15,10 +16,29 @@ class MatriksController extends Controller
      */
     public function index()
     {
-        $alt = Alternatif::all();
-        $krit = Kriteria::all();
-        $matriks = Matriks::all();
-        return view('matriks.index', compact('alt', 'krit', 'matriks'));
+        // Ambil semua data DecisionMatrix dari database
+        $matrik = Matriks::all();
+
+        // Jika tidak ada data, kembalikan ke view dengan pesan
+        if ($matrik->isEmpty()) {
+            return view('matriks.index')->with('error', 'Tidak ada data Decision Matrix yang tersimpan.');
+        }
+
+        // Buat array untuk menyimpan data yang akan ditampilkan di view
+        $matrixTable = [];
+
+        // Loop untuk menyusun data ke samping berdasarkan id_alternatif
+        foreach ($matrik as $data) {
+            $matrixTable[$data->alternatif_id][$data->kriteria_id] = $data->nilai;
+        }
+
+        // Ambil nama kriteria untuk header tabel
+        $kriteriaNames = DB::table('kriteria')->pluck('nama_kriteria', 'id')->toArray();
+        // Ambil nama alternatif untuk ditampilkan di view
+        $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
+
+        // Kirim data ke view
+        return view('matriks.index', compact('matrixTable', 'kriteriaNames','alternatifNames'));
     }
 
     /**
