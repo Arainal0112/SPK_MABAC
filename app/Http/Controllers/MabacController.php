@@ -14,6 +14,7 @@ class MabacController extends Controller
     {
         $matriks = Matriks::all();
         $kriteria = Kriteria::all();
+        $alternatif = Alternatif::all();
         // Jika tidak ada data, kembalikan ke view dengan pesan
         if ($matriks->isEmpty()) {
             return view('hasil.index')->with('error', 'Tidak ada data Decision Matrix yang tersimpan.');
@@ -41,15 +42,15 @@ class MabacController extends Controller
         $matriksTerimbang = $this->hitungMatriksTerimbang($normalisasi, $kriteria);
 
         // Perhitungan Matriks Perkiraan Batas (G)
-        $matriksBatas = $this->hitungMatriksBatas($matriksTerimbang, count($matrixTable));
+        $matriksBatas = $this->hitungMatriksBatas($matriksTerimbang);
 
         // // Perhitungan Matriks Q
-        // $matriksQ = $this->hitungMatriksQ($matriksTerimbang, $matriksBatas);
+        $matriksQ = $this->hitungMatriksJarakAlternatif($matriksTerimbang, $matriksBatas);
 
         // Perangkingan
-        // $ranking = $this->perangkingan($matriksQ);
+        $ranking = $this->perangkingan($matriksQ);
 
-        return view('hasil.index', compact('matrixTable', 'kriteriaNames', 'alternatifNames', 'normalisasi','matriksTerimbang',));
+        return view('hasil.index', compact('matrixTable', 'kriteriaNames', 'alternatifNames', 'normalisasi', 'matriksTerimbang', 'matriksBatas', 'matriksQ', 'ranking'));
     }
 
     private function hitungNormalisasi($matrixTable)
@@ -75,9 +76,16 @@ class MabacController extends Controller
 
         foreach ($matrixTable as $alternatif => $kriteriaData) {
             foreach ($kriteriaData as $kriteria => $nilai) {
-                // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
-                $normalizedValue = ($nilai - $minValues[$kriteria]) / ($maxValues[$kriteria] - $minValues[$kriteria]);
-                $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                $objKriteria = Kriteria::find($kriteria);
+                if ($objKriteria->jenis == 'cost') {
+                    // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
+                    $normalizedValue = ($nilai - $maxValues[$kriteria]) / ($minValues[$kriteria] - $maxValues[$kriteria]);
+                    $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                } else {
+                    // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
+                    $normalizedValue = ($nilai - $minValues[$kriteria]) / ($maxValues[$kriteria] - $minValues[$kriteria]);
+                    $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                }
             }
         }
 
@@ -97,7 +105,8 @@ class MabacController extends Controller
                 // Pastikan objek Kriteria ditemukan sebelum mengakses properti
                 if ($objKriteria) {
                     // Hitung matriks terimbang menggunakan rumus normalisasi * bobot kriteria
-                    $matriksTerimbang[$alternatif][$kriteria] = ($nilai * $objKriteria->bobot)+$objKriteria->bobot;
+                    $nilai_bobot = $objKriteria->bobot / 100;
+                    $matriksTerimbang[$alternatif][$kriteria] = ($nilai * $nilai_bobot) + $nilai_bobot;
                 }
             }
         }
@@ -105,36 +114,46 @@ class MabacController extends Controller
         return $matriksTerimbang;
     }
 
-    private function hitungMatriksBatas($matriksTerimbang, $jumlahAlternatif)
+    private function hitungMatriksBatas($matriksTerimbang)
     {
+        // Menghitung matriks batas
         $matriksBatas = [];
 
-    foreach ($matriksTerimbang as $alternatif => $kriteriaData) {
-        foreach ($kriteriaData as $kriteria => $nilai) {
-            // Hitung matriks batas menggunakan rumus terimbang pangkat 1/banyak alternatif
-            $matriksBatas[$alternatif][$kriteria] = pow($nilai, 1 / $jumlahAlternatif);
-        }
-    }
-
-    return $matriksBatas;
-
-        return $matriksBatas;
-    }
-
-    private function hitungMatriksQ($matriksTerimbang, $matriksBatas)
-    {
-        $matriksQ = [];
-
         foreach ($matriksTerimbang as $alternatif => $kriteriaData) {
-            $sumBatas = array_sum($matriksBatas[$alternatif]);
-
             foreach ($kriteriaData as $kriteria => $nilai) {
-                // Hitung matriks Q menggunakan rumus terimbang^2 / sum(batas)
-                $matriksQ[$alternatif][$kriteria] = pow($nilai, 2) / $sumBatas;
+                if (!isset($matriksBatas[$kriteria])) {
+                    $matriksBatas[$kriteria] = 1;
+                }
+                // Mengalikan semua nilai kriteria yang memiliki id yang sama
+                $matriksBatas[$kriteria] *= $nilai;
             }
         }
 
-        return $matriksQ;
+        // Menghitung banyaknya alternatif
+        $banyakAlternatif = count($matriksTerimbang);
+
+        // Operasi pada matriks batas sesuai rumus
+        foreach ($matriksBatas as $kriteria => $nilai) {
+            $matriksBatas[$kriteria] = pow($nilai, 1 / $banyakAlternatif);
+        }
+
+        // Hasil akhir adalah matriks batas
+        return $matriksBatas;
+    }
+
+    private function hitungMatriksJarakAlternatif($matriksTerimbang, $matriksBatas)
+    {
+        // Menghitung matriks jarak alternatif
+        $matriksJarakAlternatif = [];
+
+        foreach ($matriksTerimbang as $alternatif => $kriteriaData) {
+            foreach ($kriteriaData as $kriteria => $nilai) {
+                // Menghitung nilai matriks jarak alternatif sesuai rumus
+                $matriksJarakAlternatif[$alternatif][$kriteria] = $nilai - $matriksBatas[$kriteria];
+            }
+        }
+
+        return $matriksJarakAlternatif;
     }
 
     private function perangkingan($matriksQ)
