@@ -31,6 +31,18 @@
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex justify-content-between align-items-center">
                     <h6 class="m-0 font-weight-bold text-primary">Data Alternatif</h6>
+                    {{-- <form action="{{ route('alternatif.index') }}" method="GET" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Cari Alternatif..."
+                                aria-label="Search" aria-describedby="basic-addon2" name="nama" value="{{request('nama')}}" required>
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+        
+                    </form> --}}
                     {{-- <a class="btn btn-primary ml-auto" href="{{ route('alternatif.create') }}">Tambah Alternatif</a> --}}
                     <button type="button" href="" class=" btn btn-primary" data-toggle="modal"
                         data-target="#add_alternatif">
@@ -77,7 +89,7 @@
 
     </div>
 
-{{-- Modal Create --}}
+    {{-- Modal Create --}}
     <div class="modal fade" id="add_alternatif" tabindex="-1" role="dialog" aria-labelledby="add_alternatif"
         aria-hidden="true" data-toggle="modal">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -86,7 +98,7 @@
                     <h5 class="modal-title" id="add_alternatif">Alternatif</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                      </button>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form method="post" action="{{ route('alternatif.store') }}" autocomplete="off" id="myForm">
@@ -115,7 +127,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
 @endsection

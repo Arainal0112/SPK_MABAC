@@ -1,12 +1,12 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon">
+            <img src="{{ asset('img/logo.png') }}" width="60%">
         </div>
-        <div class="sidebar-brand-text mx-3">MABAC<sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">MABAC SISTEM</div>
     </a>
 
     <!-- Divider -->
@@ -14,35 +14,78 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('home') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>{{ __('Dashboard') }}</span></a>
+        <a class="nav-link rounded-left" href="{{ route('home') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Dashboard') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
-    <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('kriteria.index') }}">
-            <i class="fa-brands fa-get-pocket"></i>
-            <span>{{ __('Kriteria') }}</span></a>
+    <li class="nav-item {{ Nav::isRoute('kriteria.index') }}">
+        <a class="nav-link rounded-left" href="{{ route('kriteria.index') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa-brands fa-get-pocket"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Kriteria') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
-    <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('alternatif.index') }}">
-            <i class="fa-solid fa-users"></i>
-            <span>{{ __('Alternatif') }}</span></a>
+    <li class="nav-item {{ Nav::isRoute('alternatif.index') }}">
+        <a class="nav-link rounded-left" href="{{ route('alternatif.index') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Alternatif') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
-    <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('sub.index') }}">
-            <i class="fa-brands fa-get-pocket"></i>
-            <span>{{ __('Sub Kriteria') }}</span></a>
+    <li class="nav-item {{ Nav::isRoute('sub.index') }}">
+        <a class="nav-link rounded-left" href="{{ route('sub.index') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa-brands fa-get-pocket"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Sub Kriteria') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
-    <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('matriks.index') }}">
-            <i class="fa-solid fa-square-poll-horizontal"></i>
-            <span>{{ __('Matriks') }}</span></a>
+    <li class="nav-item {{ Nav::isRoute('matriks.index') }}">
+        <a class="nav-link rounded-left" href="{{ route('matriks.index') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa-solid fa-square-poll-horizontal"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Matriks') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
-    <li class="nav-item {{ Nav::isRoute('home') }}">
-        <a class="nav-link" href="{{ route('hasil.index') }}">
-            <i class="fa-solid fa-square-poll-horizontal"></i>
-            <span>{{ __('Hasil') }}</span></a>
+    <li class="nav-item {{ Nav::isRoute('hasil.index') }}">
+        <a class="nav-link rounded-left" href="{{ route('hasil.index') }}">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa-solid fa-square-poll-horizontal"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Hasil') }}</span>
+                </div>
+            </div>
+        </a>
     </li>
+
 
     <!-- Divider -->
     <hr class="sidebar-divider">
@@ -55,16 +98,28 @@
     <!-- Nav Item - Profile -->
     <li class="nav-item {{ Nav::isRoute('profile') }}">
         <a class="nav-link" href="{{ route('profile') }}">
-            <i class="fas fa-fw fa-user"></i>
-            <span>{{ __('Profile') }}</span>
+            <div class="row">
+                <div class="col-2">
+                    <i class="fas fa-fw fa-user"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('Profile') }}</span>
+                </div>
+            </div>
         </a>
     </li>
 
     <!-- Nav Item - About -->
     <li class="nav-item {{ Nav::isRoute('about') }}">
         <a class="nav-link" href="{{ route('about') }}">
-            <i class="fas fa-fw fa-hands-helping"></i>
-            <span>{{ __('About') }}</span>
+            <div class="row">
+                <div class="col-2">
+                    <i class="fas fa-fw fa-hands-helping"></i>
+                </div>
+                <div class="col">
+                    <span>{{ __('About') }}</span>
+                </div>
+            </div>
         </a>
     </li>
 

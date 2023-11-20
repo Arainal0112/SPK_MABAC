@@ -41,7 +41,7 @@
                                     <tr>
                                         <th>Alternatif</th>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <th>C{{ $loop->index + 1 }}</th>
+                                            <th>{{ $kriteriaName}}</th>
                                         @endforeach
                                     </tr>
                                 </thead>
@@ -50,7 +50,23 @@
                                         <tr>
                                             <td>{{ $alternatifNames[$alternatifId] }}</td>
                                             @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                                <td>{{ $kriteriaValues[$kriteriaId] ?? '' }}</td>
+                                                @php
+                                                    $nilai = $kriteriaValues[$kriteriaId] ?? ''; // Mendapatkan nilai dari matriks
+                                                    $subKriteria = ''; // Inisialisasi variabel untuk menyimpan nama subkriteria
+
+                                                    // Mencari nama subkriteria berdasarkan nilai
+                                                    foreach ($sub as $subKriteriaOption) {
+                                                        if ($subKriteriaOption['kriteria_id'] == $kriteriaId && $subKriteriaOption['nilai_sub'] == $nilai) {
+                                                            $subKriteria = $subKriteriaOption['nama_sub'];
+                                                            break;
+                                                        }
+                                                    }
+                                                @endphp
+
+                                                <td>
+                                                    {{-- {{ $nilai }} {{-- Menampilkan nilai --}}
+                                                    {{ $subKriteria }} {{-- Menampilkan nama subkriteria --}}
+                                                </td>
                                             @endforeach
                                         </tr>
                                     @endforeach

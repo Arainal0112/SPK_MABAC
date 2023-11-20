@@ -37,8 +37,9 @@ class MatriksController extends Controller
         // Ambil nama alternatif untuk ditampilkan di view
         $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
 
+        $sub = SubKriteria::all();
         // Kirim data ke view
-        return view('matriks.index', compact('matrixTable', 'kriteriaNames','alternatifNames'));
+        return view('matriks.index', compact('matrixTable', 'kriteriaNames','alternatifNames','sub'));
     }
 
     /**

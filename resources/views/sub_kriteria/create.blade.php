@@ -55,10 +55,20 @@
                                     <h6 class="m-0 font-weight-bold text-danger">Isikan berdasarkan preferensi terkecil!
                                     </h6>
                                     <div class="form-group">
+                                        <div class="row">
+                                        <div class="col">
                                         <label class="form-control-label" for="sub_alt_1">Sub Alternatif 1<span
                                                 class="small text-danger">*</span></label>
                                         <input type="text" id="sub_alt_1" class="form-control" name="sub_alt_1"
                                             placeholder="Isikan Sub Kriteria">
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="form-control-label" for="nilai_alt_1">Nilai<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="number" id="nilai_alt_1" class="form-control" name="nilai_alt_1"
+                                            placeholder="Isikan Sub Kriteria">
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">

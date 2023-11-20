@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\Kriteria;
+use App\Models\Alternatif;
 use Illuminate\Http\Request;
+use App\Http\Controllers\MabacController;
 
 class HomeController extends Controller
 {
@@ -24,6 +27,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $alt = Alternatif::all();
+        $krit = Kriteria::all();
         $users = User::count();
 
         $widget = [
@@ -31,6 +36,17 @@ class HomeController extends Controller
             //...
         ];
 
-        return view('home', compact('widget'));
+        // Buat objek MabacController
+        $mabacController = new MabacController();
+
+        // Panggil fungsi index
+        $result = $mabacController->index();
+
+        // Ambil nilai peringkat dari hasil pemanggilan
+        $ranking = $result['ranking'];
+        $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
+
+
+        return view('home', compact('widget','alt','krit','ranking','alternatifNames'));
     }
 }
