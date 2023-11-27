@@ -43,7 +43,11 @@ class HomeController extends Controller
         $result = $mabacController->index();
 
         // Ambil nilai peringkat dari hasil pemanggilan
-        $ranking = $result['ranking'];
+        if (isset($result['ranking']) && !empty($result['ranking'])) {
+            $ranking = $result['ranking'];
+        } else {
+            $ranking = []; // Atau bisa juga menggunakan null tergantung kebutuhan
+        }
         $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
 
 

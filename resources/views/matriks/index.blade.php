@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Alternatif') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Data Matriks') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -43,6 +43,7 @@
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
                                             <th>{{ $kriteriaName}}</th>
                                         @endforeach
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -68,6 +69,16 @@
                                                     {{ $subKriteria }} {{-- Menampilkan nama subkriteria --}}
                                                 </td>
                                             @endforeach
+                                            <td>
+                                                <form action="{{ route('matriks.destroy', $alternatifId) }}" method="POST"
+                                                    onsubmit="return confirm('Apakah anda yakin untuk menghapus Nilai {{ $alternatifNames[$alternatifId] }}?')">
+                                                    <a class="btn btn-primary"
+                                                        href="{{ route('matriks.edit', $alternatifId) }}">edit</a>
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button type="submit" class="btn btn-danger">Hapus</button>
+                                                </form>
+                                            </td>
                                         </tr>
                                     @endforeach
                                 </tbody>

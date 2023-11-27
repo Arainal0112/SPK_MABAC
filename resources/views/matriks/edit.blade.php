@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('alternatif') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Rubah Nilai Matriks') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -29,67 +29,54 @@
             <div class="card shadow mb-4">
 
                 <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Nilai Matriks</h6>
+                    <h4 class="m-0 font-weight-bold text-primary">{{ $alt->nama_alternatif }}</h4>
                 </div>
 
                 <div class="card-body">
 
-                    <form method="post" action="{{ route('matriks.update', $matriks->alternatif_id) }}" autocomplete="off" id="myForm">
+                    <form method="post" action="{{ route('matriks.update', $alt->id) }}" autocomplete="off" id="myForm">
                         @csrf
-                        @method('PUT')
-                        <div class="row">
+                        @method('PUT') <!-- Use PUT method for updating -->
+
+                        <!-- Your existing form fields for alternatif -->
+
+                        @foreach ($krit as $Krit)
                             <div class="col-lg-12">
                                 <div class="form-group focused">
-                                    <label class="form-control-label" for="alternatif">Alternatif<span
+                                    <label class="form-control-label"
+                                        for="nilai_{{ $Krit->id }}">{{ $Krit->nama_kriteria }}<span
                                             class="small text-danger">*</span></label>
-                                    <select id="alternatif" class="form-control" name="alternatif">
-                                        <option value="{{ $Alt->nama_alternatif }}" selected disabled hidden>-- Pilih alternatif--</option>
-                                        @foreach ($alt as $Alt)
-                                            <option value={{ $Alt->id }}>{{ $Alt->nama_alternatif }}</option>
+                                    <select id="nilai_{{ $Krit->id }}" class="form-control"
+                                        name="nilai_{{ $Krit->id }}">
+                                        <option value="" selected disabled hidden>--Pilih Kriteria--</option>
+
+                                        @foreach ($sub->where('kriteria_id', $Krit->id) as $Sub)
+                                            <option value="{{ $Sub->nilai_sub }}"
+                                                @if ($matriks->where('kriteria_id', $Krit->id)->first()->nilai == $Sub->nilai_sub) selected @endif>{{ $Sub->nama_sub }}
+                                            </option>
                                         @endforeach
                                     </select>
                                 </div>
                             </div>
-                            @foreach ($krit as $Krit)
-                                <div class="col-lg-12">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label"
-                                            for="nilai_{{ $Krit->id }}">{{ $Krit->nama_kriteria }}<span
-                                                class="small text-danger">*</span></label>
-                                        <select id="nilai_{{ $Krit->id }}" class="form-control"
-                                            name="nilai_{{ $Krit->id }}">
-                                            <option value="{{ $Sub->nama_sub }}" selected disabled hidden>{{ $Sub->nama_sub }}</option>
-
-                                            @foreach ($sub->where('kriteria_id', $Krit->id) as $Sub)
-                                                <option value="{{ $Sub->nilai_sub }}">{{ $Sub->nama_sub }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
+                            <input type="hidden" name="kriteria_{{ $Krit->id }}" value="{{ $Krit->id }}">
+                        @endforeach
+                        <!-- Button -->
+                        <div class="pl-lg-4">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <button type="submit" class="btn btn-primary">Simpan</button>
+                                    <a href="javascript:history.go(-1);" class="btn btn-secondary">Kembali</a>
                                 </div>
-                                <input type="hidden" name="kriteria_{{ $Krit->id }}" value="{{ $Krit->id }}">
-                            @endforeach
-
-
+                            </div>
                         </div>
-                </div>
+                    </form>
 
-                <!-- Button -->
-                <div class="pl-lg-4">
-                    <div class="row">
-                        <div class="col text-center">
-                            <button type="submit" class="btn btn-primary">Simpan</button>
-                            <a href="javascript:history.go(-1);" class="btn btn-secondary">Kembali</a>
-                        </div>
-                    </div>
                 </div>
-                </form>
 
             </div>
 
         </div>
 
-    </div>
 
-    
 
-@endsection
+    @endsection

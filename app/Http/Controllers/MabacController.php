@@ -15,10 +15,14 @@ class MabacController extends Controller
         $matriks = Matriks::all();
         $kriteria = Kriteria::all();
         $alternatif = Alternatif::all();
+
+        // Ambil nama kriteria untuk header tabel
+        $kriteriaNames = Kriteria::pluck('nama_kriteria', 'id')->toArray();
+
         // Jika tidak ada data, kembalikan ke view dengan pesan
-        if ($matriks->isEmpty()) {
-            return view('hasil.index')->with('error', 'Tidak ada data Decision Matrix yang tersimpan.');
-        }
+        // if ($matriks->isEmpty()) {
+        //     return view('hasil.index')->with('error', 'Tidak ada data Decision Matrix yang tersimpan.');
+        // }
 
         // Buat array untuk menyimpan data yang akan ditampilkan di view
         $matrixTable = [];
@@ -28,8 +32,6 @@ class MabacController extends Controller
             $matrixTable[$data->alternatif_id][$data->kriteria_id] = $data->nilai;
         }
 
-        // Ambil nama kriteria untuk header tabel
-        $kriteriaNames = DB::table('kriteria')->pluck('nama_kriteria', 'id')->toArray();
         // Ambil nama alternatif untuk ditampilkan di view
         $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
         // Kirim data ke view
@@ -77,14 +79,19 @@ class MabacController extends Controller
         foreach ($matrixTable as $alternatif => $kriteriaData) {
             foreach ($kriteriaData as $kriteria => $nilai) {
                 $objKriteria = Kriteria::find($kriteria);
-                if ($objKriteria->jenis == 'cost') {
-                    // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
-                    $normalizedValue = ($nilai - $maxValues[$kriteria]) / ($minValues[$kriteria] - $maxValues[$kriteria]);
-                    $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                // Additional check to avoid division by zero
+                if ($maxValues[$kriteria] - $minValues[$kriteria] != 0) {
+                    if ($objKriteria->jenis == 'cost') {
+                        // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
+                        $normalizedValue = ($nilai - $maxValues[$kriteria]) / ($minValues[$kriteria] - $maxValues[$kriteria]);
+                        $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                    } else {
+                        // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
+                        $normalizedValue = ($nilai - $minValues[$kriteria]) / ($maxValues[$kriteria] - $minValues[$kriteria]);
+                        $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                    }
                 } else {
-                    // Normalisasi menggunakan rumus (nilai - nilai_min) / (nilai_max - nilai_min)
-                    $normalizedValue = ($nilai - $minValues[$kriteria]) / ($maxValues[$kriteria] - $minValues[$kriteria]);
-                    $normalizedMatrix[$alternatif][$kriteria] = $normalizedValue;
+                    $normalizedMatrix[$alternatif][$kriteria] = 0;
                 }
             }
         }

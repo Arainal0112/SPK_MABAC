@@ -70,18 +70,18 @@ class SubKriteriaController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit($id_sub)
+    public function edit($id)
     {
-        $sub = SubKriteria::find($id_sub);
+        $sub = SubKriteria::find($id);
         return view('sub_kriteria.edit', compact('sub'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, $id_sub)
+    public function update(Request $request, $id)
     {
-        $sub = SubKriteria::where('id_sub', $id_sub)->first();
+        $sub = SubKriteria::where('id', $id)->first();
 
         $sub->nama_sub = $request->get('nama_sub');
         $sub->nilai_sub = $request->get('nilai_sub');

@@ -118,13 +118,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($ranking as $alternatif => $nilaiQ)
+                                @if (count($ranking) > 0)
+                                    @foreach ($ranking as $alternatif => $nilaiQ)
+                                        <tr>
+                                            <td class="col-2">{{ $loop->index + 1 }}</td>
+                                            <td>{{ $alternatifNames[$alternatif] }}</td>
+                                            <td>{{ number_format($nilaiQ, 3) }}</td>
+                                        </tr>
+                                    @endforeach
+                                @else
                                     <tr>
-                                        <td class="col-2">{{ $loop->index + 1 }}</td>
-                                        <td>{{ $alternatifNames[$alternatif] }}</td>
-                                        <td>{{ number_format($nilaiQ, 3) }}</td>
+                                        <td colspan="3">Data masih kosong</td>
                                     </tr>
-                                @endforeach
+                                @endif
                             </tbody>
                         </table>
 
@@ -238,7 +244,7 @@
                                                     @foreach ($Kriteria->subKriteria as $sub)
                                                         <tr>
                                                             {{-- <td>{{ $j }}</td> --}}
-                                                            <td>{{ $sub->nilai_sub}}</td>
+                                                            <td>{{ $sub->nilai_sub }}</td>
                                                             <td>{{ $sub->nama_sub }}</td>
                                                             <!-- Add more columns if needed -->
                                                         </tr>

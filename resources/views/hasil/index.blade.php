@@ -3,7 +3,7 @@
 @section('main-content')
     <!-- Page Heading -->
     <h1 class="h3 mb-4 text-gray-800">{{ __('Hasil Perhitungan MABAC') }}</h1>
-    <a class="btn btn-primary m-2" href="{{ route('matriks.create') }}">Input Nilai</a>
+    {{-- <a class="btn btn-primary m-2" href="{{ route('matriks.create') }}">Input Nilai</a> --}}
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" id="matrix-tab" data-toggle="tab" href="#matrix">Data Matriks</a>

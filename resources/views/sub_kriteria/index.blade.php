@@ -37,7 +37,6 @@
                     </button>
                 </div>
                 <div class="card-body">
-                    <?php $i = 1; ?>
                     @foreach ($kriteria as $Krit)
                         <div class="table-responsive">
                             <hr>
@@ -51,6 +50,7 @@
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
+                    <?php $i = 1; ?>
                                 @foreach ($sub->where('kriteria_id', $Krit->id) as $Sub)
                                     <tbody>
                                         <tr>
