@@ -89,10 +89,10 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <h5 class="font-weight-bold">Lian Mega</h5>
-                            <h5 class="font-weight-bold">Nim</h5>
+                            <h5 class="font-weight-bold">Lian Mega Pratiwi</h5>
+                            <h5 class="font-weight-bold">2041720257</h5>
                             <h5 class="font-weight-bold">TI-3C</h5>
-                            <h5 class="font-weight-bold">absen</h5>
+                            <h5 class="font-weight-bold">15</h5>
                             <a href="https://github.com/aleckrh/laravel-sb-admin-2" target="_blank" class="btn btn-github">
                                 <i class="fab fa-github fa-fw"></i> Go to repository
                             </a>
