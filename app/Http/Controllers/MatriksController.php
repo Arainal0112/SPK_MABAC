@@ -79,7 +79,7 @@ class MatriksController extends Controller
         }
 
 
-        return redirect()->route('matriks.index')->with('success', 'Data Kriteria Berhasil Ditambahkan');
+        return redirect()->route('matriks.index')->with('success', 'Data Matriks Berhasil Ditambahkan');
     }
 
     /**
@@ -127,7 +127,7 @@ class MatriksController extends Controller
         }
 
 
-        return redirect()->route('matriks.index')->with('success', 'Data Kriteria Berhasil Ditambahkan');
+        return redirect()->route('matriks.index')->with('success', 'Data Matriks Berhasil Dirubah');
     }
 
     /**

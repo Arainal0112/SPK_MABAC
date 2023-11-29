@@ -67,7 +67,7 @@ class AlternatifController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'nama_kriteria' => 'required',
+            'nama_alternatif' => 'required',
             ]);
 
             $alternatif = Alternatif::where('id', $id)->first();
@@ -76,7 +76,7 @@ class AlternatifController extends Controller
 
             $alternatif->save();
             return redirect()->route('alternatif.index') 
-            -> with('success', 'Data Alternatif Berhasil Ditambahkan');
+            -> with('success', 'Data Alternatif Berhasil Dirubah');
     }
 
     /**

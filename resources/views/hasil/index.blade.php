@@ -110,7 +110,7 @@
                                     <tr>
                                         <td>{{ $alternatifNames[$alternatifId] }}</td>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <td>{{ number_format($normalisasi[$alternatifId][$kriteriaId] ?? '', 3) }}
+                                            <td>{{ number_format($normalisasi[$alternatifId][$kriteriaId] ?? 0, 3) }}
                                             </td>
                                         @endforeach
                                     </tr>
@@ -163,7 +163,7 @@
                 <div class="card-body">
                     <div class="table-responsive">
 
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <table class="table table-bordered text-center align-items-center" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                                 <tr>
                                     <th>Kriteria</th>
@@ -209,7 +209,7 @@
                                     <tr>
                                         <td>{{ $alternatifNames[$alternatifId] }}</td>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <td>{{ number_format($matriksQ[$alternatifId][$kriteriaId], 3) }}</td>
+                                            <td>{{ number_format($matriksQ[$alternatifId][$kriteriaId] ?? 0, 3) }}</td>
                                         @endforeach
                                     </tr>
                                 @endforeach

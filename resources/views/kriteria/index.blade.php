@@ -38,8 +38,8 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
+                        <table class="table table-bordered align-items-center" id="dataTable" width="100%" cellspacing="0">
+                            <thead class="text-center">
                                 <tr>
                                     <th>No</th>
                                     <th>Kode Kriteria</th>
@@ -53,20 +53,14 @@
                             @foreach ($kriteria as $Kriteria)
                                 <tbody>
                                     <tr>
-                                        <td>{{ $i }}</td>
+                                        <td class="text-center col-1">{{ $i }}</td>
                                         <td>{{ $Kriteria->kode_kriteria }}</td>
                                         <td>{{ $Kriteria->nama_kriteria }}</td>
-                                        <td>{{ $Kriteria->bobot }}</td>
+                                        <td class="text-center">{{ $Kriteria->bobot }}</td>
                                         <td>{{ $Kriteria->jenis }}</td>
-                                        <td>
-                                            <form action="{{ route('kriteria.destroy', $Kriteria->id) }}" method="POST"
-                                                onsubmit="return confirm('Apakah anda yakin untuk menghapus {{ $Kriteria->nama_kriteria }}?')">
-                                                <a class="btn btn-primary"
-                                                    href="{{ route('kriteria.edit', $Kriteria->id) }}">edit</a>
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn btn-danger">Hapus</button>
-                                            </form>
+                                        <td class="col-2 text-center">
+                                            <a class="btn btn-primary" href="{{ route('kriteria.edit', $Kriteria->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                            <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -158,6 +152,28 @@
             </div>
         </div>
     </div>
-
+{{-- Modal Hapus --}}
+<div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{ __('Apakah Anda Yakin Untuk Menghapus Data?') }}</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">Jika ada menghapus data kriteria, data pada matriks juga akan terhapus.</div>
+            <div class="modal-footer">
+                <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
+                <form action="{{ route('kriteria.destroy', $Kriteria->id) }}" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Hapus</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

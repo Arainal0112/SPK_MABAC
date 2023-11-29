@@ -39,10 +39,9 @@
                 <div class="card-body">
                     @foreach ($kriteria as $Krit)
                         <div class="table-responsive">
-                            <hr>
                             <h5 class="text-gray-800">Kriteria : {{ $Krit->nama_kriteria }}</h5>
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                <thead>
+                            <table class="table table-bordered align-items-center" id="dataTable" width="100%" cellspacing="0">
+                                <thead class="text-center">
                                     <tr>
                                         <th>No</th>
                                         <th>Sub Kriteria</th>
@@ -50,22 +49,17 @@
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
-                    <?php $i = 1; ?>
+                                <?php $i = 1; ?>
                                 @foreach ($sub->where('kriteria_id', $Krit->id) as $Sub)
                                     <tbody>
                                         <tr>
-                                            <td class="col-1">{{ $i }}</td>
+                                            <td class="col-1 text-center">{{ $i }}</td>
                                             <td class="col-6">{{ $Sub->nama_sub }}</td>
-                                            <td class="col-1">{{ $Sub->nilai_sub }}</td>
-                                            <td class="col-2">
-                                                <form action="{{ route('sub.destroy', $Sub->id) }}" method="POST"
-                                                    onsubmit="return confirm('Apakah anda yakin untuk menghapus data?')">
-                                                    <a class="btn btn-primary"
-                                                        href="{{ route('sub.edit', $Sub->id) }}">edit</a>
-                                                    @csrf
-                                                    @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger">Hapus</button>
-                                                </form>
+                                            <td class="text-center">{{ $Sub->nilai_sub }}</td>
+                                            <td class="col-2 text-center">
+                                                <a class="btn btn-primary" href="{{ route('sub.edit', $Sub->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                <a class="btn btn-danger" href="#" data-toggle="modal"
+                                                    data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -101,7 +95,7 @@
                                     <label class="form-control-label" for="kriteria">Kriteria<span
                                             class="small text-danger">*</span></label>
                                     <select id="kriteria" class="form-control" name="kriteria">
-                                        <option value="" selected disabled hidden>-- Pilih Jenis Kriteria--</option>
+                                        <option value="" selected disabled hidden>-- Pilih Kriteria--</option>
                                         @foreach ($kriteria as $Kriteria)
                                             <option value={{ $Kriteria->id }}>{{ $Kriteria->nama_kriteria }}</option>
                                         @endforeach
@@ -115,17 +109,18 @@
                                     <div class="form-group" id="form-container">
                                         <div class="row">
                                             <div class="col">
-                                                <label class="form-control-label" for="sub_alt_1">Sub Alternatif 1<span
+                                                <label class="form-control-label" for="sub_krit_1">Sub Kriteria<span
                                                         class="small text-danger">*</span></label>
-                                                <input type="text" id="sub_alt_1" class="form-control" name="sub_alt_1"
+                                                <input type="text" id="sub_krit_1" class="form-control" name="sub_krit_1"
                                                     placeholder="Isikan Sub Kriteria">
                                             </div>
-                                            {{-- <div class="col-3">
-                                                <label class="form-control-label" for="nilai_sub_1">Nilai 1<span
+                                            <div class="col-3">
+                                                <label class="form-control-label" for="nilai_sub_1">Nilai<span
                                                         class="small text-danger">*</span></label>
                                                 <input type="number" id="nilai_sub_1" class="form-control"
                                                     name="nilai_sub_1" placeholder="1">
-                                            </div> --}}
+                                            </div>
+                                            <input type="hidden" name="counter" id="counter" value="1">
                                         </div>
                                     </div>
                                 </div>
@@ -149,6 +144,30 @@
                     </div>
                 </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    {{-- Modal Hapus --}}
+    <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{ __('Apakah Anda Yakin Untuk Menghapus Data?') }}
+                    </h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">x</span>
+                    </button>
+                </div>
+                <div class="modal-body">Jika ada menghapus data Sub kriteria, data lain yang terhubung juga akan terhapus.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
+                    <form action="{{ route('sub.destroy', $Sub->id) }}" method="POST">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn btn-danger">Hapus</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
