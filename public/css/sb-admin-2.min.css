@@ -10676,3 +10676,18 @@ body.sidebar-toggled footer.sticky-footer {
     vertical-align: middle;
 }
 /*# sourceMappingURL=sb-admin-2.min.css.map */
+
+.rank-tdk-berhak {
+    font-weight: bold;
+    color: red;
+    background-color: #ffcccc; /* Warna latar belakang merah muda */
+    padding: 5px; /* Menambahkan padding agar terlihat lebih baik */
+    border-radius: 10px;
+}
+.rank-berhak {
+    font-weight: bold;
+    color: green;
+    background-color: #bff0de; /* Warna latar belakang merah muda */
+    padding: 5px; /* Menambahkan padding agar terlihat lebih baik */
+    border-radius: 10px; /* Menambahkan padding agar terlihat lebih baik */
+}

@@ -51,6 +51,9 @@ class MabacController extends Controller
 
         // Perangkingan
         $ranking = $this->perangkingan($matriksQ);
+        
+        // Menghitung banyak data yang bernilai minus
+        $jmlberhak =  $this->jumlahberhak($ranking);
 
         return view('hasil.index', compact('matrixTable', 'kriteriaNames', 'alternatifNames', 'normalisasi', 'matriksTerimbang', 'matriksBatas', 'matriksQ', 'ranking'));
     }
@@ -172,9 +175,23 @@ class MabacController extends Controller
             $totalQ[$alternatif] = array_sum($kriteriaData);
         }
 
-        // Urutkan alternatif berdasarkan nilai total Q secara descending
-        arsort($totalQ);
+        // Urutkan alternatif berdasarkan nilai total Q secara ascending
+        asort($totalQ);
 
         return $totalQ;
+    }
+    // Fungsi untuk menghitung banyak data yang bernilai minus
+    public function jumlahberhak($ranking)
+    {
+        $count = 0;
+
+        foreach ($ranking as $value) {
+                if ($value < 0) {
+                    $count++;
+                }
+            
+        }
+
+        return $count;
     }
 }

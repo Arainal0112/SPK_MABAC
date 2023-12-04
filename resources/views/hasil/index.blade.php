@@ -234,6 +234,7 @@
                                     <th>Peringkat</th>
                                     <th>Alternatif</th>
                                     <th>Hasil</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -242,6 +243,11 @@
                                         <td class="col-2">{{ $loop->index + 1 }}</td>
                                         <td>{{ $alternatifNames[$alternatif] }}</td>
                                         <td>{{ number_format($nilaiQ, 3) }}</td>
+                                        @if ($nilaiQ <= 0)
+                                        <td><span class="rank-berhak">Berhak Menerima</span></td>
+                                    @else
+                                        <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
+                                    @endif
                                     </tr>
                                 @endforeach
                             </tbody>

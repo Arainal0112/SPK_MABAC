@@ -48,9 +48,11 @@ class HomeController extends Controller
         } else {
             $ranking = []; // Atau bisa juga menggunakan null tergantung kebutuhan
         }
+        $jmlhberhak = $mabacController->jumlahberhak($ranking);
+        
         $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
 
 
-        return view('home', compact('widget','alt','krit','ranking','alternatifNames'));
+        return view('home', compact('widget','alt','krit','ranking','alternatifNames', 'jmlhberhak'));
     }
 }
