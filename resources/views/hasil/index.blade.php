@@ -52,7 +52,7 @@
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex justify-content-between align-items-center">
                             <h6 class="m-0 font-weight-bold text-primary">Data Matriks</h6>
-                            
+
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -163,7 +163,7 @@
                 <div class="card-body">
                     <div class="table-responsive">
 
-                        <table class="table table-bordered text-center align-items-center" id="dataTable" width="100%" cellspacing="0">
+                        <table class="table table-bordered text-center align-items-center" id="dataTable" width="100%"cellspacing="0">
                             <thead>
                                 <tr>
                                     <th>Kriteria</th>
@@ -244,10 +244,10 @@
                                         <td>{{ $alternatifNames[$alternatif] }}</td>
                                         <td>{{ number_format($nilaiQ, 3) }}</td>
                                         @if ($nilaiQ <= 0)
-                                        <td><span class="rank-berhak">Berhak Menerima</span></td>
-                                    @else
-                                        <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
-                                    @endif
+                                            <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
+                                        @else
+                                            <td><span class="rank-berhak">Berhak Menerima</span></td>
+                                        @endif
                                     </tr>
                                 @endforeach
                             </tbody>

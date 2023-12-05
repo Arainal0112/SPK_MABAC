@@ -120,9 +120,9 @@
                                             <td>{{ $alternatifNames[$alternatif] }}</td>
                                             <td>{{ number_format($nilaiQ, 3) }}</td>
                                             @if ($nilaiQ <= 0)
-                                                <td><span class="rank-berhak">Berhak Menerima</span></td>
+                                            <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
                                             @else
-                                                <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
+                                            <td><span class="rank-berhak">Berhak Menerima</span></td>
                                             @endif
                                         </tr>
                                     @endforeach

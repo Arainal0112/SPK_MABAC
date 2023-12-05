@@ -176,7 +176,7 @@ class MabacController extends Controller
         }
 
         // Urutkan alternatif berdasarkan nilai total Q secara ascending
-        asort($totalQ);
+        arsort($totalQ);
 
         return $totalQ;
     }
