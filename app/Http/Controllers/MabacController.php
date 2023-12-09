@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use PDF;
 use App\Models\Matriks;
 use App\Models\Kriteria;
 use App\Models\Alternatif;
+use App\Models\SubKriteria;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -51,7 +53,7 @@ class MabacController extends Controller
 
         // Perangkingan
         $ranking = $this->perangkingan($matriksQ);
-        
+
         // Menghitung banyak data yang bernilai minus
         $jmlberhak =  $this->jumlahberhak($ranking);
 
@@ -186,12 +188,56 @@ class MabacController extends Controller
         $count = 0;
 
         foreach ($ranking as $value) {
-                if ($value < 0) {
-                    $count++;
-                }
-            
+            if ($value < 0) {
+                $count++;
+            }
         }
 
         return $count;
+    }
+    public function cetak_pdf()
+    {
+        $matriks = Matriks::all();
+        $kriteria = Kriteria::all();
+        $alternatif = Alternatif::all();
+        $sub = SubKriteria::all();
+
+        // Ambil nama kriteria untuk header tabel
+        $kriteriaNames = Kriteria::pluck('nama_kriteria', 'id')->toArray();
+
+
+        // Buat array untuk menyimpan data yang akan ditampilkan di view
+        $matrixTable = [];
+
+        // Loop untuk menyusun data ke samping berdasarkan id_alternatif
+        foreach ($matriks as $data) {
+            $matrixTable[$data->alternatif_id][$data->kriteria_id] = $data->nilai;
+        }
+
+        // Ambil nama alternatif untuk ditampilkan di view
+        $alternatifNames = Alternatif::pluck('nama_alternatif', 'id')->toArray();
+        // Kirim data ke view
+
+
+        // Normalisasi
+        $normalisasi = $this->hitungNormalisasi($matrixTable);
+
+        // Perhitungan Matriks Terimbang (V)
+        $matriksTerimbang = $this->hitungMatriksTerimbang($normalisasi, $kriteria);
+
+        // Perhitungan Matriks Perkiraan Batas (G)
+        $matriksBatas = $this->hitungMatriksBatas($matriksTerimbang);
+
+        // // Perhitungan Matriks Q
+        $matriksQ = $this->hitungMatriksJarakAlternatif($matriksTerimbang, $matriksBatas);
+
+        // Perangkingan
+        $ranking = $this->perangkingan($matriksQ);
+
+        // Menghitung banyak data yang bernilai minus
+        $jmlberhak =  $this->jumlahberhak($ranking);
+        $pdf = PDF::loadview('matriks.cetak_pdf', compact('sub','matrixTable', 'kriteriaNames', 'alternatifNames', 'normalisasi', 'matriksTerimbang', 'matriksBatas', 'matriksQ', 'ranking'));
+        return $pdf->stream();
+        // return view('matriks.cetak_pdf', compact('sub','matrixTable', 'kriteriaNames', 'alternatifNames', 'normalisasi', 'matriksTerimbang', 'matriksBatas', 'matriksQ', 'ranking'));
     }
 }

@@ -30,6 +30,7 @@ Route::resource('/kriteria', KriteriaController::class);
 Route::resource('/sub', SubKriteriaController::class);
 Route::resource('/matriks', MatriksController::class);
 Route::get('/hasil', 'MabacController@index')->name('hasil.index');
+Route::get('/pdf', 'MabacController@cetak_pdf')->name('hasil.cetak_pdf');
 
 Route::get('/about', function () {
     return view('about');

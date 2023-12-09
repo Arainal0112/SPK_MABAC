@@ -61,6 +61,7 @@
                                         <td class="col-2 text-center">
                                             <a class="btn btn-primary" href="{{ route('kriteria.edit', $Kriteria->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
                                             <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
+                                            @include('components.delete', ['route' => route('kriteria.destroy', $Kriteria->id), 'modalId' => 'hapusModalkriteria_' . $Kriteria->id])
                                         </td>
                                     </tr>
                                 </tbody>
@@ -152,28 +153,5 @@
             </div>
         </div>
     </div>
-{{-- Modal Hapus --}}
-<div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">{{ __('Apakah Anda Yakin Untuk Menghapus Data?') }}</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">x</span>
-                </button>
-            </div>
-            <div class="modal-body">Jika ada menghapus data kriteria, data pada matriks juga akan terhapus.</div>
-            <div class="modal-footer">
-                <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
-                <form action="{{ route('kriteria.destroy', $Kriteria->id) }}" method="POST">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Hapus</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 @endsection

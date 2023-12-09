@@ -31,19 +31,7 @@
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex justify-content-between align-items-center">
                     <h6 class="m-0 font-weight-bold text-primary">Data Alternatif</h6>
-                    {{-- <form action="{{ route('alternatif.index') }}" method="GET" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Cari Alternatif..."
-                                aria-label="Search" aria-describedby="basic-addon2" name="nama" value="{{request('nama')}}" required>
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="submit">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-        
-                    </form> --}}
-                    {{-- <a class="btn btn-primary ml-auto" href="{{ route('alternatif.create') }}">Tambah Alternatif</a> --}}
+                   
                     <button type="button" href="" class=" btn btn-primary" data-toggle="modal"
                         data-target="#add_alternatif">
                         Tambah Alternatif
@@ -69,6 +57,7 @@
                                         <td class="col-2 text-center">
                                             <a class="btn btn-primary" href="{{ route('alternatif.edit', $Alternatif->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
                                             <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
+                                            @include('components.delete', ['route' => route('alternatif.destroy', $Alternatif->id), 'modalId' => 'hapusModalAlternatif_' . $Alternatif->id])
                                             
                                         </td>
                                     </tr>
@@ -123,28 +112,5 @@
         </div>
     </div>
 
-{{-- Modal Hapus --}}
-<div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">{{ __('Apakah Anda Yakin Untuk Menghapus Data?') }}</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">x</span>
-                </button>
-            </div>
-            <div class="modal-body">Jika ada menghapus data Alternatif, data pada matriks juga akan terhapus.</div>
-            <div class="modal-footer">
-                <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
-                <form action="{{ route('alternatif.destroy', $Alternatif->id) }}" method="POST">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Hapus</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 @endsection

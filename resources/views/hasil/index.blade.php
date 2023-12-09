@@ -2,8 +2,10 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Hasil Perhitungan MABAC') }}</h1>
-    {{-- <a class="btn btn-primary m-2" href="{{ route('matriks.create') }}">Input Nilai</a> --}}
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-4 text-gray-800">{{ __('Hasil Perhitungan MABAC') }}</h1>
+        <a class="btn btn-success m-2" href="{{ route('hasil.cetak_pdf') }}" target="_blank">Cetak PDF</a>
+    </div>
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" id="matrix-tab" data-toggle="tab" href="#matrix">Data Matriks</a>
