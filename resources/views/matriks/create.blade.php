@@ -57,7 +57,7 @@
                                                 class="small text-danger">*</span></label>
                                         <select id="nilai_{{ $Krit->id }}" class="form-control"
                                             name="nilai_{{ $Krit->id }}">
-                                            <option value="" selected disabled hidden>--Pilih Kriteria--</option>
+                                            <option value="" selected disabled hidden>--Pilih Nilai Kriteria--</option>
 
                                             @foreach ($sub->where('kriteria_id', $Krit->id) as $Sub)
                                                 <option value="{{ $Sub->nilai_sub }}">{{ $Sub->nama_sub }}</option>

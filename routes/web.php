@@ -1,11 +1,12 @@
 <?php
 
-use App\Http\Controllers\AlternatifController;
-use App\Http\Controllers\KriteriaController;
-use App\Http\Controllers\MabacController;
-use App\Http\Controllers\MatriksController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MabacController;
+use App\Http\Controllers\MatriksController;
+use App\Http\Controllers\KriteriaController;
+use App\Http\Controllers\AlternatifController;
+use App\Http\Controllers\SubKriteriaController;
 
 /*
 |--------------------------------------------------------------------------

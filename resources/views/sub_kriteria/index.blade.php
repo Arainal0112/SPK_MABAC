@@ -64,8 +64,8 @@
                                                     data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
                                                 <!-- Modal Hapus Sub Kriteria -->
                                                 @include('components.delete', [
-                                                    'route' => route('sub_kriteria.destroy', $SubKriteria->id),
-                                                    'modalId' => 'hapusModalSubKriteria_' . $SubKriteria->id,
+                                                    'route' => route('sub.destroy', $Sub->id),
+                                                    'modalId' => 'hapusModalSubKriteria_' . $Sub->id,
                                                 ])
                                             </td>
                                         </tr>
