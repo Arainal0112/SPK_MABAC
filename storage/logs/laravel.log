@@ -22304,3 +22304,1079 @@
 #54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
 #55 {main}
 "} 
+[2023-11-28 06:37:23] local.ERROR: number_format(): Argument #1 ($num) must be of type float, string given {"view":{"view":"C:\\Users\\HP\\Documents\\SPK_MABAC\\resources\\views\\hasil\\index.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1222728894 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1298</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1222728894\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","matrixTable":"<pre class=sf-dump id=sf-dump-2123632260 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>2.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>3.0</span>
+  </samp>]
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>5.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>5.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>2.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>5.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>5.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>6</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>2.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>2.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>3.0</span>
+  </samp>]
+  <span class=sf-dump-key>7</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>3.0</span>
+  </samp>]
+  <span class=sf-dump-key>8</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>9</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>5.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>10</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>4.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>2.0</span>
+  </samp>]
+  <span class=sf-dump-key>11</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>2.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>1.0</span>
+  </samp>]
+  <span class=sf-dump-key>12</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>3.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>1.0</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-2123632260\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","kriteriaNames":"<pre class=sf-dump id=sf-dump-341508232 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>1</span> => \"<span class=sf-dump-str title=\"20 characters\">Pendapatan Orang Tua</span>\"
+  <span class=sf-dump-key>2</span> => \"<span class=sf-dump-str title=\"20 characters\">Tanggungan Orang Tua</span>\"
+  <span class=sf-dump-key>3</span> => \"<span class=sf-dump-str title=\"15 characters\">Perkerjaan Ayah</span>\"
+  <span class=sf-dump-key>4</span> => \"<span class=sf-dump-str title=\"13 characters\">Pekerjaan Ibu</span>\"
+  <span class=sf-dump-key>5</span> => \"<span class=sf-dump-str title=\"17 characters\">Kepemilikan Rumah</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-341508232\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","alternatifNames":"<pre class=sf-dump id=sf-dump-1503080847 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>1</span> => \"<span class=sf-dump-str title=\"4 characters\">budi</span>\"
+  <span class=sf-dump-key>2</span> => \"<span class=sf-dump-str title=\"4 characters\">asep</span>\"
+  <span class=sf-dump-key>3</span> => \"<span class=sf-dump-str title=\"9 characters\">Afriliani</span>\"
+  <span class=sf-dump-key>4</span> => \"<span class=sf-dump-str title=\"13 characters\">Athaya Raissa</span>\"
+  <span class=sf-dump-key>5</span> => \"<span class=sf-dump-str title=\"21 characters\">Ayuningtias Setyorini</span>\"
+  <span class=sf-dump-key>6</span> => \"<span class=sf-dump-str title=\"15 characters\">Chindy Hassanah</span>\"
+  <span class=sf-dump-key>7</span> => \"<span class=sf-dump-str title=\"21 characters\">Dinda Cindy Anggraini</span>\"
+  <span class=sf-dump-key>8</span> => \"<span class=sf-dump-str title=\"16 characters\">Mita Anggraini H</span>\"
+  <span class=sf-dump-key>9</span> => \"<span class=sf-dump-str title=\"10 characters\">Trio Utomo</span>\"
+  <span class=sf-dump-key>10</span> => \"<span class=sf-dump-str title=\"15 characters\">Muhammad Ikhwan</span>\"
+  <span class=sf-dump-key>11</span> => \"<span class=sf-dump-str title=\"14 characters\">Jorgi Silalahi</span>\"
+  <span class=sf-dump-key>12</span> => \"<span class=sf-dump-str title=\"12 characters\">Irdian Ridho</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1503080847\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","normalisasi":"<pre class=sf-dump id=sf-dump-568118097 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.66666666666667</span>
+  </samp>]
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.33333333333333</span>
+  </samp>]
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.33333333333333</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>6</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>1.0</span>
+  </samp>]
+  <span class=sf-dump-key>7</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.66666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>1.0</span>
+  </samp>]
+  <span class=sf-dump-key>8</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>9</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.66666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>10</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>1.0</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.75</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.5</span>
+  </samp>]
+  <span class=sf-dump-key>11</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.66666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.0</span>
+  </samp>]
+  <span class=sf-dump-key>12</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.66666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.0</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-568118097\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","matriksTerimbang":"<pre class=sf-dump id=sf-dump-1408303447 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.375</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.41666666666667</span>
+  </samp>]
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.33333333333333</span>
+  </samp>]
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.35</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.15</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.4</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.2625</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.6</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.33333333333333</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.4</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>6</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.375</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.2</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.1875</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.2</span>
+  </samp>]
+  <span class=sf-dump-key>7</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.45</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.41666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.35</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.15</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.2</span>
+  </samp>]
+  <span class=sf-dump-key>8</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.45</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.25</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.225</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>9</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.45</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.41666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.4</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.2625</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>10</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.525</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.5</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.2625</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15</span>
+  </samp>]
+  <span class=sf-dump-key>11</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.45</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.41666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.1875</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.1</span>
+  </samp>]
+  <span class=sf-dump-key>12</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.45</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.41666666666667</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.3</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.225</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.1</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1408303447\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","matriksBatas":"<pre class=sf-dump id=sf-dump-1863531354 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.40924490870671</span>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.34378422404623</span>
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.39082822757213</span>
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.27845494814014</span>
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.20178271543649</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1863531354\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","matriksQ":"<pre class=sf-dump id=sf-dump-1885932216 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.03424490870671</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.072882442620432</span>
+  </samp>]
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.10924490870671</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.010450890712902</span>
+  </samp>]
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.10924490870671</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.093784224046235</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.040828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.12845494814014</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.10924490870671</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.093784224046235</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.0091717724278689</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.015954948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.19075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.010450890712902</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.0091717724278689</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>0.021545051859864</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>6</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.03424490870671</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.093784224046235</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.19082822757213</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.090954948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.0017827154364903</span>
+  </samp>]
+  <span class=sf-dump-key>7</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.04075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.072882442620432</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.040828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.12845494814014</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.0017827154364903</span>
+  </samp>]
+  <span class=sf-dump-key>8</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.04075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>-0.093784224046235</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.090828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.053454948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>9</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.04075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.072882442620432</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>0.0091717724278689</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.015954948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>10</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.11575509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.15621577595377</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.090828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.015954948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.05178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>11</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.04075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.072882442620432</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.090828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.090954948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.10178271543649</span>
+  </samp>]
+  <span class=sf-dump-key>12</span> => <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => <span class=sf-dump-num>0.04075509129329</span>
+    <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.072882442620432</span>
+    <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.090828227572131</span>
+    <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.053454948140136</span>
+    <span class=sf-dump-key>5</span> => <span class=sf-dump-num>-0.10178271543649</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1885932216\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","ranking":"<pre class=sf-dump id=sf-dump-270331920 data-indent-pad=\"  \"><span class=sf-dump-note>array:12</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-key>5</span> => <span class=sf-dump-num>0.15923830943163</span>
+  <span class=sf-dump-key>10</span> => <span class=sf-dump-num>0.1134049760983</span>
+  <span class=sf-dump-key>9</span> => <span class=sf-dump-num>0.055071642764965</span>
+  <span class=sf-dump-key>2</span> => <span class=sf-dump-num>0.038637533913722</span>
+  <span class=sf-dump-key>7</span> => <span class=sf-dump-num>-0.057428357235035</span>
+  <span class=sf-dump-key>1</span> => <span class=sf-dump-num>-0.11969579941961</span>
+  <span class=sf-dump-key>12</span> => <span class=sf-dump-num>-0.13242835723504</span>
+  <span class=sf-dump-key>11</span> => <span class=sf-dump-num>-0.16992835723504</span>
+  <span class=sf-dump-key>8</span> => <span class=sf-dump-num>-0.2490950239017</span>
+  <span class=sf-dump-key>4</span> => <span class=sf-dump-num>-0.2615950239017</span>
+  <span class=sf-dump-key>6</span> => <span class=sf-dump-num>-0.4115950239017</span>
+  <span class=sf-dump-key>3</span> => <span class=sf-dump-num>-0.4240950239017</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-270331920\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): number_format(): Argument #1 ($num) must be of type float, string given at C:\\Users\\HP\\Documents\\SPK_MABAC\\resources\\views\\hasil\\index.blade.php:113)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\resources\\views\\hasil\\index.blade.php(113): number_format('', 3)
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\Users\\\\HP\\\\Doc...')
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#53 {main}
+
+[previous exception] [object] (TypeError(code: 0): number_format(): Argument #1 ($num) must be of type float, string given at C:\\Users\\HP\\Documents\\SPK_MABAC\\storage\\framework\\views\\767d0288627f79186caba0705bbf6de2.php:114)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\storage\\framework\\views\\767d0288627f79186caba0705bbf6de2.php(114): number_format('', 3)
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('C:\\\\Users\\\\HP\\\\Doc...')
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\HP\\\\Doc...', Array)
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(911): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(878): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#53 {main}
+"} 
+[2023-11-29 01:17:38] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 3) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 3) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:822)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('3')
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#53 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:605)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(605): PDOStatement->execute()
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(809): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('delete from `al...', Array)
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('3')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#55 {main}
+"} 
+[2023-11-29 01:18:51] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 4) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 4) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:822)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('4')
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#53 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:605)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(605): PDOStatement->execute()
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(809): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('delete from `al...', Array)
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('4')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#55 {main}
+"} 
+[2023-11-29 01:22:30] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 7) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) (Connection: mysql, SQL: delete from `alternatif` where `id` = 7) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:822)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('7')
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#53 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_spk`.`matriks`, CONSTRAINT `matriks_alternatif_id_foreign` FOREIGN KEY (`alternatif_id`) REFERENCES `alternatif` (`id`)) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:605)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(605): PDOStatement->execute()
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(809): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('delete from `al...', Array)
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('delete from `al...', Array, Object(Closure))
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('delete from `al...', Array, Object(Closure))
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(557): Illuminate\\Database\\Connection->affectingStatement('delete from `al...', Array)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3615): Illuminate\\Database\\Connection->delete('delete from `al...', Array)
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1271): Illuminate\\Database\\Query\\Builder->delete()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1462): Illuminate\\Database\\Eloquent\\Builder->delete()
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1407): Illuminate\\Database\\Eloquent\\Model->performDeleteOnModel()
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\AlternatifController.php(87): Illuminate\\Database\\Eloquent\\Model->delete()
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\AlternatifController->destroy('7')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('destroy', Array)
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AlternatifController), 'destroy')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#55 {main}
+"} 
+[2023-11-29 01:34:46] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' (Connection: mysql, SQL: select * from `sub_kriteria` where `id_sub` = 11 limit 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' (Connection: mysql, SQL: select * from `sub_kriteria` where `id_sub` = 11 limit 1) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:822)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2751): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2740): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3294): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2739): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(737): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(721): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\SubKriteriaController.php(84): Illuminate\\Database\\Eloquent\\Builder->first()
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\SubKriteriaController->update(Object(Illuminate\\Http\\Request), '11')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SubKriteriaController), 'update')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#55 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:416)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(809): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2751): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2740): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3294): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2739): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(737): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(721): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\SubKriteriaController.php(84): Illuminate\\Database\\Eloquent\\Builder->first()
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\SubKriteriaController->update(Object(Illuminate\\Http\\Request), '11')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SubKriteriaController), 'update')
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#57 {main}
+"} 
+[2023-11-29 01:35:04] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' (Connection: mysql, SQL: select * from `sub_kriteria` where `id_sub` = 11 limit 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' (Connection: mysql, SQL: select * from `sub_kriteria` where `id_sub` = 11 limit 1) at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:822)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2751): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2740): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3294): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2739): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(737): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(721): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\SubKriteriaController.php(84): Illuminate\\Database\\Eloquent\\Builder->first()
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\SubKriteriaController->update(Object(Illuminate\\Http\\Request), '11')
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SubKriteriaController), 'update')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#55 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_sub' in 'where clause' at C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:416)
+[stacktrace]
+#0 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(809): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(407): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2751): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#5 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2740): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3294): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2739): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(737): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(721): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#11 C:\\Users\\HP\\Documents\\SPK_MABAC\\app\\Http\\Controllers\\SubKriteriaController.php(84): Illuminate\\Database\\Eloquent\\Builder->first()
+#12 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\SubKriteriaController->update(Object(Illuminate\\Http\\Request), '11')
+#13 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#14 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SubKriteriaController), 'update')
+#15 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#16 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#17 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\HP\\Documents\\SPK_MABAC\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\HP\\Documents\\SPK_MABAC\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\HP\\Documents\\SPK_MABAC\\server.php(21): require_once('C:\\\\Users\\\\HP\\\\Doc...')
+#57 {main}
+"} 
