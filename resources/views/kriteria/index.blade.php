@@ -38,8 +38,8 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
+                        <table class="table table-bordered align-items-center" id="dataTable" width="100%" cellspacing="0">
+                            <thead class="text-center">
                                 <tr>
                                     <th>No</th>
                                     <th>Kode Kriteria</th>
@@ -53,20 +53,15 @@
                             @foreach ($kriteria as $Kriteria)
                                 <tbody>
                                     <tr>
-                                        <td>{{ $i }}</td>
+                                        <td class="text-center col-1">{{ $i }}</td>
                                         <td>{{ $Kriteria->kode_kriteria }}</td>
                                         <td>{{ $Kriteria->nama_kriteria }}</td>
-                                        <td>{{ $Kriteria->bobot }}</td>
+                                        <td class="text-center">{{ $Kriteria->bobot }}</td>
                                         <td>{{ $Kriteria->jenis }}</td>
-                                        <td>
-                                            <form action="{{ route('kriteria.destroy', $Kriteria->id) }}" method="POST"
-                                                onsubmit="return confirm('Apakah anda yakin untuk menghapus {{ $Kriteria->nama_kriteria }}?')">
-                                                <a class="btn btn-primary"
-                                                    href="{{ route('kriteria.edit', $Kriteria->id) }}">edit</a>
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn btn-danger">Hapus</button>
-                                            </form>
+                                        <td class="col-2 text-center">
+                                            <a class="btn btn-primary" href="{{ route('kriteria.edit', $Kriteria->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                            <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
+                                            @include('components.delete', ['route' => route('kriteria.destroy', $Kriteria->id), 'modalId' => 'hapusModalkriteria_' . $Kriteria->id])
                                         </td>
                                     </tr>
                                 </tbody>
@@ -158,6 +153,5 @@
             </div>
         </div>
     </div>
-
 
 @endsection

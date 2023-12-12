@@ -72,7 +72,7 @@
                                 <div class="form-group focused">
                                     <label class="form-control-label" for="jenis">Jenis Kriteria</label>
                                     <select id="jenis" class="form-control" name="jenis">
-                                        <option value="">{{ $kriteria->jenis }}</option>
+                                        <option value="{{ $kriteria->jenis }}">{{ $kriteria->jenis }}</option>
                                         <option value="cost">Cost</option>
                                         <option value="benefit">Benefit</option>
                                     </select>

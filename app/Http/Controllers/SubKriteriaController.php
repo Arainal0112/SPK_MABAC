@@ -34,27 +34,27 @@ class SubKriteriaController extends Controller
      */
     public function store(Request $request)
     {
-        // Mengakses data sub_kriteria dari form
-        $subKriteriaData = $request->only(['sub_alt_1', 'sub_alt_2', 'sub_alt_3', 'sub_alt_4', 'sub_alt_5']);
-
-        // Menghitung jumlah sub_kriteria yang sudah ditambahkan
-        $jmlSubKriteria = count($subKriteriaData);
-
-        // Menyimpan data sub_kriteria ke database
-        for ($i = 1; $i <= $jmlSubKriteria; $i++) {
-            $sub_kriteria = new SubKriteria; // Buat objek baru di setiap iterasi
+        // Create a new SubkritModel instance
         
-            $value = $subKriteriaData['sub_alt_' . $i];
-            
-            $sub_kriteria->nama_sub = $value;
-            $sub_kriteria->nilai_sub = $i;
 
-            $kriteria = new Kriteria;
-            $kriteria->id = $request->get('kriteria');
+        // Loop through the sub_krit and nilai_sub fields dynamically
+        for ($i = 1; $i <= $request->input('counter'); $i++) {
+            $subkrit = new SubKriteria;
+            $subkrit->kriteria_id = $request->input('kriteria');
 
-            $sub_kriteria->kriteria()->associate($kriteria);
-            $sub_kriteria->save();
+            $subkritField = 'sub_krit_' . $i;
+            $nilaiSubField = 'nilai_sub_' . $i;
+
+            // Check if the nilai_sub field is empty, set placeholder if it is
+            $nilaiSubValue = $request->filled($nilaiSubField) ? $request->input($nilaiSubField) : $i;
+
+            // Set values for sub_krit and nilai_sub in the model
+
+            $subkrit->nama_sub = $request->input($subkritField);
+            $subkrit->nilai_sub = $nilaiSubValue;
+            $subkrit->save();
         }
+
         return redirect()->route('sub.index')->with('success', 'Data Sub Kriteria Berhasil Ditambahkan');
 
     }
@@ -70,18 +70,18 @@ class SubKriteriaController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit($id_sub)
+    public function edit($id)
     {
-        $sub = SubKriteria::find($id_sub);
+        $sub = SubKriteria::find($id);
         return view('sub_kriteria.edit', compact('sub'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, $id_sub)
+    public function update(Request $request, $id)
     {
-        $sub = SubKriteria::where('id_sub', $id_sub)->first();
+        $sub = SubKriteria::where('id', $id)->first();
 
         $sub->nama_sub = $request->get('nama_sub');
         $sub->nilai_sub = $request->get('nilai_sub');
@@ -99,7 +99,7 @@ class SubKriteriaController extends Controller
     {
         SubKriteria::find($id)->delete();
         
-        return redirect()->route('kriteria.index')
+        return redirect()->route('sub.index')
             ->with('success', 'Data Berhasil Dihapus');
     }
 }

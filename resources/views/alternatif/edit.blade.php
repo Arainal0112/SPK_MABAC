@@ -47,25 +47,6 @@
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <label class="form-control-label" for="bobot">Bobot<span class="small text-danger">*</span></label>
-                                        <input type="number" id="bobot" class="form-control" name="bobot" value="{{$alternatif->bobot}}">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="jenis">Jenis alternatif<span class="small text-danger">*</span></label>
-                                        <select id="jenis" class="form-control" name="jenis">
-                                            <option value="cost">Cost</option>
-                                            <option value="benefit">Benefit</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                         <!-- Button -->

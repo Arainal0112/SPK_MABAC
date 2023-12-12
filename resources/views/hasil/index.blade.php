@@ -2,8 +2,10 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Hasil Perhitungan MABAC') }}</h1>
-    <a class="btn btn-primary m-2" href="{{ route('matriks.create') }}">Input Nilai</a>
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-4 text-gray-800">{{ __('Hasil Perhitungan MABAC') }}</h1>
+        <a class="btn btn-success m-2" href="{{ route('hasil.cetak_pdf') }}" target="_blank">Cetak PDF</a>
+    </div>
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" id="matrix-tab" data-toggle="tab" href="#matrix">Data Matriks</a>
@@ -52,7 +54,7 @@
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex justify-content-between align-items-center">
                             <h6 class="m-0 font-weight-bold text-primary">Data Matriks</h6>
-                            
+
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -110,7 +112,7 @@
                                     <tr>
                                         <td>{{ $alternatifNames[$alternatifId] }}</td>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <td>{{ number_format($normalisasi[$alternatifId][$kriteriaId] ?? '', 3) }}
+                                            <td>{{ number_format($normalisasi[$alternatifId][$kriteriaId] ?? 0, 3) }}
                                             </td>
                                         @endforeach
                                     </tr>
@@ -163,7 +165,7 @@
                 <div class="card-body">
                     <div class="table-responsive">
 
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <table class="table table-bordered text-center align-items-center" id="dataTable" width="100%"cellspacing="0">
                             <thead>
                                 <tr>
                                     <th>Kriteria</th>
@@ -209,7 +211,7 @@
                                     <tr>
                                         <td>{{ $alternatifNames[$alternatifId] }}</td>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <td>{{ number_format($matriksQ[$alternatifId][$kriteriaId], 3) }}</td>
+                                            <td>{{ number_format($matriksQ[$alternatifId][$kriteriaId] ?? 0, 3) }}</td>
                                         @endforeach
                                     </tr>
                                 @endforeach
@@ -234,6 +236,7 @@
                                     <th>Peringkat</th>
                                     <th>Alternatif</th>
                                     <th>Hasil</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -242,6 +245,11 @@
                                         <td class="col-2">{{ $loop->index + 1 }}</td>
                                         <td>{{ $alternatifNames[$alternatif] }}</td>
                                         <td>{{ number_format($nilaiQ, 3) }}</td>
+                                        @if ($nilaiQ <= 0)
+                                            <td><span class="rank-tdk-berhak">Tidak Berhak Menerima</span></td>
+                                        @else
+                                            <td><span class="rank-berhak">Berhak Menerima</span></td>
+                                        @endif
                                     </tr>
                                 @endforeach
                             </tbody>

@@ -31,19 +31,7 @@
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex justify-content-between align-items-center">
                     <h6 class="m-0 font-weight-bold text-primary">Data Alternatif</h6>
-                    {{-- <form action="{{ route('alternatif.index') }}" method="GET" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Cari Alternatif..."
-                                aria-label="Search" aria-describedby="basic-addon2" name="nama" value="{{request('nama')}}" required>
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="submit">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-        
-                    </form> --}}
-                    {{-- <a class="btn btn-primary ml-auto" href="{{ route('alternatif.create') }}">Tambah Alternatif</a> --}}
+                   
                     <button type="button" href="" class=" btn btn-primary" data-toggle="modal"
                         data-target="#add_alternatif">
                         Tambah Alternatif
@@ -52,8 +40,8 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
+                        <table class="table table-bordered align-items-center" id="dataTable" width="100%" cellspacing="0">
+                            <thead class="text-center">
                                 <tr>
                                     <th>No</th>
                                     <th>Nama Alternatif</th>
@@ -64,17 +52,13 @@
                             @foreach ($alternatif as $Alternatif)
                                 <tbody>
                                     <tr>
-                                        <td>{{ $i }}</td>
+                                        <td class="text-center col-1">{{ $i }}</td>
                                         <td>{{ $Alternatif->nama_alternatif }}</td>
-                                        <td>
-                                            <form action="{{ route('alternatif.destroy', $Alternatif->id) }}" method="POST"
-                                                onsubmit="return confirm('Apakah anda yakin untuk menghapus {{ $Alternatif->nama_alternatif }}?')">
-                                                <a class="btn btn-primary"
-                                                    href="{{ route('alternatif.edit', $Alternatif->id) }}">edit</a>
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn btn-danger">Hapus</button>
-                                            </form>
+                                        <td class="col-2 text-center">
+                                            <a class="btn btn-primary" href="{{ route('alternatif.edit', $Alternatif->id) }}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                            <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal"><i class="fa-solid fa-trash"></i></a>
+                                            @include('components.delete', ['route' => route('alternatif.destroy', $Alternatif->id), 'modalId' => 'hapusModalAlternatif_' . $Alternatif->id])
+                                            
                                         </td>
                                     </tr>
                                 </tbody>
@@ -127,7 +111,6 @@
             </div>
         </div>
     </div>
-
 
 
 @endsection

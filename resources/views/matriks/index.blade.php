@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Alternatif') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Data Matriks') }}</h1>
 
     @if (session('success'))
         <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
@@ -36,13 +36,14 @@
                 <div class="card-body">
                     <div class="table-responsive">
                         @if (!empty($matrixTable))
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                <thead>
+                            <table class="table table-bordered align-items-center" id="dataTable" width="100%" cellspacing="0">
+                                <thead class="text-center">
                                     <tr>
                                         <th>Alternatif</th>
                                         @foreach ($kriteriaNames as $kriteriaId => $kriteriaName)
-                                            <th>{{ $kriteriaName}}</th>
+                                            <th>{{ $kriteriaName }}</th>
                                         @endforeach
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -68,6 +69,16 @@
                                                     {{ $subKriteria }} {{-- Menampilkan nama subkriteria --}}
                                                 </td>
                                             @endforeach
+                                            <td class="col-2 text-center">
+                                                <form action="{{ route('matriks.destroy', $alternatifId) }}" method="POST"
+                                                    onsubmit="return confirm('Apakah anda yakin untuk menghapus Nilai {{ $alternatifNames[$alternatifId] }}?')">
+                                                    <a class="btn btn-primary"
+                                                        href="{{ route('matriks.edit', $alternatifId) }}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                </form>
+                                            </td>
                                         </tr>
                                     @endforeach
                                 </tbody>

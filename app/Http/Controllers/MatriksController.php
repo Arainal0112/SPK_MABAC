@@ -39,7 +39,7 @@ class MatriksController extends Controller
 
         $sub = SubKriteria::all();
         // Kirim data ke view
-        return view('matriks.index', compact('matrixTable', 'kriteriaNames','alternatifNames','sub'));
+        return view('matriks.index', compact('matrixTable', 'kriteriaNames', 'alternatifNames', 'sub'));
     }
 
     /**
@@ -79,7 +79,7 @@ class MatriksController extends Controller
         }
 
 
-        return redirect()->route('matriks.index')->with('success', 'Data Kriteria Berhasil Ditambahkan');
+        return redirect()->route('matriks.index')->with('success', 'Data Matriks Berhasil Ditambahkan');
     }
 
     /**
@@ -95,25 +95,48 @@ class MatriksController extends Controller
      */
     public function edit($id)
     {
-        $matriks = Matriks::where("alternatif_id", $id);
+        $matriks = Matriks::where("alternatif_id", $id)->get();
         $alt = Alternatif::find($id);
         $krit = Kriteria::all();
-        return view('matriks.edit',compact('matriks','alt','krit'));
+        $sub = SubKriteria::all();
+        return view('matriks.edit', compact('matriks', 'alt', 'krit', 'sub'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Matriks $matrik)
+    public function update(Request $request, $id)
     {
-        
+        $request->validate([
+            // Perubahan pada validasi input kriteria
+            'kriteria_*' => 'required',
+            'nilai_*' => 'required',
+        ]);
+
+        // Memproses data untuk setiap kriteria
+        $krit = Kriteria::all();
+        foreach ($krit as $Krit) {
+            
+            // Menggunakan kriteria yang sesuai dengan loop
+            $id_kriteria = $request->get('kriteria_' . $Krit->id);
+            $matriks = Matriks::where('alternatif_id', $id)
+            ->where('kriteria_id', $id_kriteria)->first();
+            // Menggunakan nilai yang sesuai dengan loop
+            $matriks->nilai = $request->get('nilai_' . $Krit->id);
+            $matriks->save();
+        }
+
+
+        return redirect()->route('matriks.index')->with('success', 'Data Matriks Berhasil Dirubah');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Matriks $matrik)
+    public function destroy($id)
     {
-        //
+        Matriks::where('alternatif_id', $id)->delete();
+        return redirect()->route('matriks.index')
+            ->with('success', 'Data Berhasil Dihapus');
     }
 }
